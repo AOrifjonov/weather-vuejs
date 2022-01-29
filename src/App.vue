@@ -163,4 +163,13 @@ main {
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
+
+@media (max-width: 700px) {
+  main {
+    display: block;
+  }
+  .search-box .serach-bar {
+    margin-top: 10vh;
+  }
+}
 </style>
